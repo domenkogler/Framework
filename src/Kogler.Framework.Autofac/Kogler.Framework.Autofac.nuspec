@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/domenkogler/Framework/blob/develop/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/domenkogler/Framework</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Release $version$</releaseNotes>
+    <copyright>Copyright Domen Kogler 2016</copyright>
+    <tags>Kogler</tags>
+  </metadata>
+</package>

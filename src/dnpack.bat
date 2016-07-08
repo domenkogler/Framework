@@ -1,0 +1,1 @@
+call dotnet pack %1 -c Release

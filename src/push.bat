@@ -1,0 +1,1 @@
+call nuget push %1\bin\Release\*.nupkg -s C:\\Nuget

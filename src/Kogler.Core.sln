@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Kogler.Core", "Kogler.Core\Kogler.Core.xproj", "{10765C98-CB83-44E2-B706-BF97EE30DDCB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Kogler.Core.Autofac", "Kogler.Core.Autofac\Kogler.Core.Autofac.xproj", "{84556F31-FACD-408A-9BB3-6BC414EB06FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10765C98-CB83-44E2-B706-BF97EE30DDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10765C98-CB83-44E2-B706-BF97EE30DDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10765C98-CB83-44E2-B706-BF97EE30DDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10765C98-CB83-44E2-B706-BF97EE30DDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84556F31-FACD-408A-9BB3-6BC414EB06FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84556F31-FACD-408A-9BB3-6BC414EB06FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84556F31-FACD-408A-9BB3-6BC414EB06FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84556F31-FACD-408A-9BB3-6BC414EB06FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

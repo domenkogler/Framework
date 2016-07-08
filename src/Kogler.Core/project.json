@@ -1,0 +1,15 @@
+{
+  "version": "0.1.0-beta",
+  "dependencies": {
+    "NETStandard.Library": "1.6.0"
+  },
+  "frameworks": {
+    "netstandard1.2": {
+      "imports": "dnxcore50"
+    }
+  },
+  "buildOptions": {
+    "define": [ "DEBUG" ],
+    "optimize": false
+  }
+}
