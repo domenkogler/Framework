@@ -31,7 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Autofac, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\NuGet\Autofac.4.0.0-rc3-293\lib\net451\Autofac.dll</HintPath>
+      <HintPath>..\..\..\..\..\NuGet\Autofac.4.0.0-rc3-316\lib\net451\Autofac.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Caliburn.Micro, Version=3.0.1.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
@@ -46,8 +46,8 @@
       <HintPath>..\..\..\..\..\NuGet\Caliburn.Micro.3.0.1\lib\net45\Caliburn.Micro.Platform.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Kogler.Core, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\NuGet\Kogler.Core.0.1.0-beta\lib\netstandard1.2\Kogler.Core.dll</HintPath>
+    <Reference Include="Kogler.core, Version=0.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\NuGet\Kogler.core.0.1.1-beta\lib\net452\Kogler.core.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Kogler.Framework, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">

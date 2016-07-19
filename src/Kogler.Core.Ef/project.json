@@ -1,17 +1,17 @@
-{
-  "version": "0.1.1-beta",
+﻿{
+  "version": "0.1.0-beta",
   "dependencies": {
-    "Autofac": "4.0.0-rc3-316",
+    "Microsoft.EntityFrameworkCore": "1.0.0",
     "Kogler.Core": { "target": "project" }
   },
   "frameworks": {
-    "netstandard1.2": {
+    "netstandard1.3": {
       "dependencies": {
         "NETStandard.Library": "1.6.0"
       },
       "imports": "dnxcore50"
     },
-    "net452": { }
+    "net452": {}
   },
   "buildOptions": {
     "define": [ "DEBUG" ],
