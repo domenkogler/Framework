@@ -1,16 +1,9 @@
 {
-  "version": "0.1.1-beta",
+  "version": "0.2.0-beta",
   "dependencies": {
-    
   },
   "frameworks": {
-    "netstandard1.2": {
-      "dependencies": {
-        "NETStandard.Library": "1.6.0"
-      },
-      "imports": "dnxcore50"
-    },
-    "net452":{ }
+    "net452": {}
   },
   "buildOptions": {
     "define": [ "DEBUG" ],

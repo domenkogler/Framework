@@ -1,16 +1,11 @@
-﻿{
-  "version": "0.1.1-beta",
+{
+  "version": "0.2.0-beta",
   "dependencies": {
-    "Microsoft.EntityFrameworkCore": "1.0.0",
-    "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0",
-    "Kogler.Core": { "target": "project" }
+    "Microsoft.EntityFrameworkCore": "1.1.0",
+    "Kogler.Core": "0.2.0-beta",
+    "Microsoft.EntityFrameworkCore.SqlServer": "1.1.0"
   },
   "frameworks": {
-    "netstandard1.3": {
-      "dependencies": {
-        "NETStandard.Library": "1.6.0"
-      }
-    },
     "net452": {}
   },
   "buildOptions": {
