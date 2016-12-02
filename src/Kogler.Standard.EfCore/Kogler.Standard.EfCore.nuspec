@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Kogler.Standard.EfCore</id>
+    <version>1.0.0</version>
+    <title>Kogler.Standard.EfCore</title>
+    <authors>Domen Kogler</authors>
+    <owners>Domen Kogler</owners>
+    <licenseUrl>https://github.com/domenkogler/Framework/blob/develop/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/domenkogler/Framework</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Kogler.Standard.EfCore</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright (c) Domen Kogler 2016</copyright>
+    <tags>Kogler EfCore</tags>
+  </metadata>
+    <files>
+    <file src="bin\Release\Kogler.Standard.EfCore.dll" target="lib\netstandard1.3\Kogler.Standard.EfCore.dll" />
+	<file src="bin\Release\Kogler.Standard.EfCore.pdb" target="lib\netstandard1.3\Kogler.Standard.EfCore.pdb" />
+    <file src="bin\Release\Kogler.Standard.EfCore.xml" target="lib\netstandard1.3\Kogler.Standard.EfCore.xml" />
+  </files>
+</package>

@@ -1,4 +1,3 @@
-cd %1\bin\Release
-call nupack %1 %2
+call nupack %1
 cd %~dp0
 call push %1

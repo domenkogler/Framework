@@ -1,1 +1,1 @@
-call nuget pack %1\%1.csproj -Build -Properties Configuration=Release -Version %2 -OutputDirectory %1\bin\Release
+call nuget pack %1\%1.nuspec -Build -Properties Configuration=Release -OutputDirectory %1\bin\Release
