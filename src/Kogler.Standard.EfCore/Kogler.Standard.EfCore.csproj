@@ -8,7 +8,7 @@
     <ProjectGuid>{0F80C5C5-99CC-4D46-84E5-FCCA5FD78239}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Kogler.Standard</RootNamespace>
+    <RootNamespace>Kogler.Standard.EfCore</RootNamespace>
     <AssemblyName>Kogler.Standard.EfCore</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
@@ -36,11 +36,15 @@
     <DocumentationFile>bin\Release\Kogler.Standard.EfCore.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="Kogler.Standard.EfCore.nuspec">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="project.json" />
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntityMappingConfiguration.cs" />
+    <Compile Include="EntityMappingConfigurationExtensions.cs" />
     <Compile Include="MigrationOptionsExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

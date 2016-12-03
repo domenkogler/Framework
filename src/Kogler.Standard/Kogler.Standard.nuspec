@@ -13,10 +13,16 @@
     <releaseNotes>First release</releaseNotes>
     <copyright>Copyright (c) Domen Kogler 2016</copyright>
     <tags>Kogler</tags>
+    <dependencies>
+      <group targetFramework="netstandard13">
+        <dependency id="Microsoft.NETCore.Portable.Compatibility" version="1.0.2" />
+        <dependency id="NETStandard.Library" version="1.6.1" />
+      </group>
+    </dependencies>
   </metadata>
   <files>
     <file src="bin\Release\Kogler.Standard.dll" target="lib\netstandard1.3\Kogler.Standard.dll" />
-	<file src="bin\Release\Kogler.Standard.pdb" target="lib\netstandard1.3\Kogler.Standard.pdb" />
+	  <file src="bin\Release\Kogler.Standard.pdb" target="lib\netstandard1.3\Kogler.Standard.pdb" />
     <file src="bin\Release\Kogler.Standard.xml" target="lib\netstandard1.3\Kogler.Standard.xml" />
   </files>
 </package>

@@ -36,6 +36,7 @@
     <DocumentationFile>bin\Release\Kogler.Standard.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="Kogler.Standard.nuspec" />
     <None Include="project.json" />
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>

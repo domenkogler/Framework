@@ -13,10 +13,16 @@
     <releaseNotes>First release</releaseNotes>
     <copyright>Copyright (c) Domen Kogler 2016</copyright>
     <tags>Kogler EfCore</tags>
+    <dependencies>
+      <group targetFramework="netstandard13">
+        <dependency id="Kogler.Standard" version="1.0.0" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="1.1.0" />
+      </group>
+    </dependencies>
   </metadata>
-    <files>
+  <files>
     <file src="bin\Release\Kogler.Standard.EfCore.dll" target="lib\netstandard1.3\Kogler.Standard.EfCore.dll" />
-	<file src="bin\Release\Kogler.Standard.EfCore.pdb" target="lib\netstandard1.3\Kogler.Standard.EfCore.pdb" />
+	  <file src="bin\Release\Kogler.Standard.EfCore.pdb" target="lib\netstandard1.3\Kogler.Standard.EfCore.pdb" />
     <file src="bin\Release\Kogler.Standard.EfCore.xml" target="lib\netstandard1.3\Kogler.Standard.EfCore.xml" />
   </files>
 </package>

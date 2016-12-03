@@ -5,7 +5,7 @@ using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Kogler.Standard
+namespace Kogler.Standard.EfCore
 {
     public interface IEntityMappingConfiguration
     {
