@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kogler.Standard", "Kogler.Standard\Kogler.Standard.csproj", "{86CF38D5-61EE-44D7-9BFC-648DD7B56840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kogler.Standard.EfCore", "Kogler.Standard.EfCore\Kogler.Standard.EfCore.csproj", "{0F80C5C5-99CC-4D46-84E5-FCCA5FD78239}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86CF38D5-61EE-44D7-9BFC-648DD7B56840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CF38D5-61EE-44D7-9BFC-648DD7B56840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CF38D5-61EE-44D7-9BFC-648DD7B56840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CF38D5-61EE-44D7-9BFC-648DD7B56840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F80C5C5-99CC-4D46-84E5-FCCA5FD78239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F80C5C5-99CC-4D46-84E5-FCCA5FD78239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F80C5C5-99CC-4D46-84E5-FCCA5FD78239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F80C5C5-99CC-4D46-84E5-FCCA5FD78239}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
